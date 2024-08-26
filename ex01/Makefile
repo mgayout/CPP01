@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= Moar_brainz!
+NAME	= a.out
 FLAG	= -Wall -Wextra -Werror -std=c++98
 SRC		= main.cpp Zombie.cpp zombieHorde.cpp
 

@@ -14,6 +14,8 @@
 
 Zombie	*zombieHorde(int N, std::string name)
 {
+	Zombie	*horde;
+
 	if (N <= 0)
 	{
 		std::cout << "Did you ever see a horde of " << N << " Zombie(s) ?" << std::endl;
@@ -24,11 +26,8 @@ Zombie	*zombieHorde(int N, std::string name)
 		std::cout << "There are too many Zombies. Do you really want to destroy the World ?" << std::endl;
 		exit(0);
 	}
-	Zombie	*horde = new Zombie[N];
-	int		i;
-
-	i = -1;
-	while (++i != N)
+	horde = new Zombie[N];
+	for (int i = 0; i != N; i++)
 		horde[i].setName(name);
 	return (horde);
 }

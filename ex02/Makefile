@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= HI_THIS_IS_BRAIN
+NAME	= a.out
 FLAG	= -Wall -Wextra -Werror -std=c++98
 SRC		= main.cpp
 

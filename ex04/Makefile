@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= Sed_is_for_losers
+NAME	= a.out
 FLAG	= -Wall -Wextra -Werror -std=c++98
 SRC		= main.cpp
 

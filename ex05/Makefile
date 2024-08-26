@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= Harl_2.0
+NAME	= a.out
 FLAG	= -Wall -Wextra -Werror -std=c++98
 SRC		= main.cpp Harl.cpp
 
